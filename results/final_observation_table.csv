@@ -1,0 +1,6 @@
+Workload,Concurrency,Total Requests,Average Response Time (ms),Throughput (req/s),Failed Requests,Student Avg CPU (%),Student Peak CPU (%),Student Avg Memory (MiB),Course Avg CPU (%),Course Peak CPU (%),Course Avg Memory (MiB),Result Avg CPU (%),Result Peak CPU (%),Result Avg Memory (MiB)
+W1,1,122,28.0,4.19,0,6.96,11.43,94.57,0.66,1.49,30.11,0.58,1.16,29.91
+W2,2,247,33.0,8.59,0,15.39,25.56,94.91,1.04,1.53,30.19,1.44,4.53,30.1
+W3,4,430,47.0,14.77,0,25.24,37.65,95.1,1.6,3.65,29.97,1.46,2.37,29.91
+W4,8,830,60.0,28.3,0,36.34,57.15,95.05,2.6,4.19,30.22,2.72,5.81,30.08
+W5,16,1286,152.0,43.48,0,47.34,79.06,94.52,3.21,6.09,30.37,3.99,5.93,30.57

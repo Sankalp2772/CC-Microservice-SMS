@@ -1,0 +1,31 @@
+services:
+  student-service:
+    build: ./student-service
+    container_name: student-service
+    ports:
+      - "5001:5001"
+    networks:
+      - microservice-net
+    depends_on:
+      - course-service
+      - result-service
+
+  course-service:
+    build: ./course-service
+    container_name: course-service
+    ports:
+      - "5002:5002"
+    networks:
+      - microservice-net
+
+  result-service:
+    build: ./result-service
+    container_name: result-service
+    ports:
+      - "5003:5003"
+    networks:
+      - microservice-net
+
+networks:
+  microservice-net:
+    driver: bridge
