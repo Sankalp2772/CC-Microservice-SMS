@@ -72,6 +72,24 @@ Resource monitoring data recording the average and peak CPU and Memory of all th
 ## 13. Graphs
 Visualizations including CPU usage, memory utilization, throughput, and response times relative to concurrent users are stored in `results/graphs/`.
 
+### Concurrent Requests vs Average Response Time
+![Concurrent vs Response Time](results/graphs/concurrent_vs_response_time.png)
+
+### Concurrent Requests vs Throughput
+![Concurrent vs Throughput](results/graphs/concurrent_vs_throughput.png)
+
+### Concurrent Requests vs CPU Utilization
+![Concurrent vs CPU Utilization](results/graphs/concurrent_vs_cpu.png)
+
+### Concurrent Requests vs Memory Utilization
+![Concurrent vs Memory Utilization](results/graphs/concurrent_vs_memory.png)
+
+### Average CPU per Service
+![Average CPU per Service](results/graphs/cpu_per_service.png)
+
+### Average Memory per Service
+![Average Memory per Service](results/graphs/memory_per_service.png)
+
 ## 14. Analysis
 An in-depth analysis answering key experimental questions about bottlenecks, resource utilization, and overall system limits is documented in `results/analysis.md`.
 
